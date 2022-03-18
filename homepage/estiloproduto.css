@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #FF914D;
+    width: 100vw;
+    /* padding: 20px; */
+}
+.logo {
+    height: 100px;
+    padding: 0 20px;
+}
+.header-button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #FFBD59;
+}
+
+main {
+    width: 100vw;
+    padding-top: 100px;
+}
+main section {
+    display: flex;
+    align-items: center;
+}
+.section-img {
+    width: 60vw;
+}
+.figura1{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+div h1{
+    font-size: 50px;
+    margin-bottom: 90px;
+    margin-left: 100px;
+}
+div p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.butao-de-cadastro{
+    margin-top: 450px;
+    margin-left: -500px;
+    padding: 10px;
+    width: 250px;
+    background-color: #FFBD59;
+    border: 1px solid white;
+    font-size: 25px;
+    
+}
+
+.figura2{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+div h2 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.figura3{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+div h3{
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.figura4{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+div h4{
+    font-size: 50px;
+    margin-bottom: 90px;
+    margin-left: 100px;
+}
+footer {
+    background-color: #FF914D;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.redes img {
+    height: 30px;
+    margin: 10px 10px 0 0;
+}
+.pj {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
