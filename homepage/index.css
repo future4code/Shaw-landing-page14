@@ -30,9 +30,41 @@ header {
 
 main {
     width: 100vw;
-    height: 150vh;
+    padding-top: 100px;
 }
 main section {
+    display: flex;
+    align-items: center;
+}
+.section-img {
+    width: 50vw;
+}
+.text-container {
+    width: 50vw;
+    padding: 50px;
+}
+section h1, section p {
+    font-size: 2em;
+}
+.par {
+    background-color: #F5F6FA;
+    padding: 100px 0;
+}
+
+footer {
+    background-color: #FF914D;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes img {
+    height: 30px;
+    margin: 10px 10px 0 0;
+}
+.pj {
+    align-self: flex-start;
     display: flex;
     align-items: center;
 }
