@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="index.css" href="fonts.googleapis.com/css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">Quem Somos</a>
+      <a href="#">Nossos Serviços</a>
+      <a href="#">Nosso Time</a>
+      <a href="#">Contato</a>
+
+      <footer>Nos siga nas redes sociais!</footer>
+    </div>
+
+    <div id="mySideLogin" class="sidelogin">
+      <a href="javascript:void(0)" class="closebtn2" onclick="closeLogin()"
+        >&times;</a
+      >
+      <img class="loginimg" src="/imagens/outline_account_circle_black_24dp.png"><br>
+      <p class="loginnome">Usuário:</p><input type="text" id="nome" name="Usuário" /><br /><br />
+     <p class="loginsenha">Senha:</p> <input type="password" id="senha" />
+     <input class="loginbutton" type="submit" value="Entrar">
+    </div>
+
+    <div class="header">
+      <span
+        style="font-size: 30px; cursor: pointer; color: #ffbd59; width: 100vw"
+        onclick="openNav()"
+        >&#9776; F4B</span
+      >
+      <span class="material-icons-outlined">
+        <img
+          src="/imagens/outline_login_black_24dp.png"
+          onclick="openLogin()"
+        />
+      </span>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "100vw";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+
+      function openLogin() {
+        document.getElementById("mySideLogin").style.width = "100vw";
+      }
+
+      function closeLogin() {
+        document.getElementById("mySideLogin").style.width = "0";
+      }
+    </script>
+  </body>
 </html>
