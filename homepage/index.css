@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1199px) {
   body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -176,75 +177,77 @@
 }
 
 @media screen and (min-width: 1200px) {
-  * {
+* {
     margin: 0;
     padding: 0;
-  }
+}
 
-  .corpo {
+.corpo {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  header {
+header {
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
-    background-color: #ff914d;
+    background-color: #FF914D;
     width: 100vw;
     /* padding: 20px; */
-  }
-  .logo {
+}
+.logo {
     height: 100px;
     padding: 0 20px;
-  }
-  .header-button {
+}
+.header-button {
     border: none;
     border-radius: 4px;
     padding: 10px;
-  }
+    background-color: #ffbd59;
+    
+}
 
-  main {
+main {
     width: 100vw;
     padding-top: 100px;
-  }
-  main section {
+}
+main section {
     display: flex;
     align-items: center;
-  }
-  .section-img {
+}
+.section-img {
     width: 50vw;
-  }
-  .text-container {
+}
+.text-container {
     width: 50vw;
     padding: 50px;
-  }
-  section h1,
-  section p {
+}
+section h1, section p {
     font-size: 2em;
-  }
-  .par {
-    background-color: #f5f6fa;
+}
+.par {
+    background-color: #F5F6FA;
     padding: 100px 0;
-  }
+}
 
-  footer {
-    background-color: #ff914d;
+footer {
+    background-color: #FF914D;
     width: 100vw;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .redes img {
+}
+.redes img {
     height: 30px;
     margin: 10px 10px 0 0;
-  }
-  .pj {
+}
+.pj {
     align-self: flex-start;
     display: flex;
     align-items: center;
-  }
 }
+}
+
