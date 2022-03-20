@@ -1,0 +1,270 @@
+@media screen and (min-width: 1200px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        background-color: #FF914D;
+        width: 100vw;
+        /* padding: 20px; */
+    }
+    .logo {
+        height: 100px;
+        padding: 0 20px;
+    }
+    .header-button {
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #FFBD59;
+    }
+    
+    main {
+        width: 100vw;
+        padding-top: 100px;
+    }
+    main section {
+        display: flex;
+        align-items: center;
+    }
+    .section-img {
+        width: 60vw;
+    }
+    .figura1{
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+    div h1{
+        font-size: 30px;
+        margin-top: 90px;
+        margin-left: 100px;
+    }
+    div p{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .butao-de-cadastro{
+        margin-top: 450px;
+        margin-left: -500px;
+        padding: 10px;
+        width: 250px;
+        background-color: #FFBD59;
+        border: 1px solid white;
+        font-size: 25px;
+        
+    }
+    
+    
+    div h2 {
+        font-size: 30px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+    div h3{
+        font-size: 30px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+    div h4{
+        font-size: 50px;
+        margin-bottom: 90px;
+        margin-left: 100px;
+    }
+    footer {
+        background-color: #FF914D;
+        width: 100vw;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .redes img {
+        height: 30px;
+        margin: 10px 10px 0 0;
+    }
+    .pj {
+        align-self: flex-start;
+        display: flex;
+        align-items: center;
+    }
+    .sidenav, .sidelogin{
+      display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      }
+    
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #ff914d;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10vh;
+      }
+    
+      .sidenav a {
+        padding: 40px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+    
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+    
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    
+    
+      .header {
+        background-color: white;
+        width: 95vw;
+        height: 6vh;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+    
+      .material-icons-outlined {
+        display: inline-flex;
+        margin-left: 65vw;
+      }
+    
+      .sidelogin {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #ff914d;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10vh;
+      }
+    
+      .sidelogin a {
+        padding: 40px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+    
+      .sidelogin a:hover {
+        color: #f1f1f1;
+      }
+    
+      .sidelogin .closebtn2 {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    
+      .loginnome,
+      .loginsenha {
+        display: inline;
+        margin-left: 5vw;
+      }
+      #nome {
+        margin-left: 5vw;
+        margin-top: 10vh;
+        border-radius: 10px;
+      }
+      #senha {
+        margin-left: 7vw;
+        margin-top: 5vh;
+        border-radius: 10px;
+      }
+    
+      .loginbutton {
+        background-color: #f5f6fa;
+        color: #ffbd59;
+        margin-top: 8vh;
+        margin-left: 40vw;
+        height: 5vh;
+        border-radius: 5px;
+      }
+    
+      .loginimg {
+        width: 10vh;
+        margin-left: 40vw;
+        padding-top: 40px;
+      }
+    
+      .logo {
+        width: 100vw;
+        margin-left: -8.5px;
+        height: 40vh;
+        margin-top: 5vh;
+      }
+      .logofooter {
+        width: 100vw;
+        margin-left: 0px;
+        height: 40vh;
+      }
+      .header-button {
+        display: none;
+      }
+    
+      .footermain {
+        background-color: #ff914d;
+        width: 100vw;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -8px;
+        margin-top: 10px;
+      }
+      .figura1{
+          display: none;
+      }
+      .redes img {
+        height: 30px;
+        margin: 10px 10px 0 0;
+      }
+      .pj {
+        background-color: #ffbd59;
+        font-weight: bold;
+        text-align: center;
+      }
+      .logobottom{
+        margin-top: -0px;
+        width: 100vw;
+        /* margin-left: -8.5px; */
+        height: 40vh;}
+}
