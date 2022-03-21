@@ -35,6 +35,7 @@
     padding-top: 100px;
   }
   main section {
+    width: 100vw;
     display: flex;
     align-items: center;
   }
