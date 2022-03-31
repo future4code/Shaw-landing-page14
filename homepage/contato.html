@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilocontato.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="sobre-nos.html">Quem Somos</a>
+        <a href="produto.html">Nossos Serviços</a>
+        <a href="contato.html">Contato</a>
+      </div>
+  
+      <div id="mySideLogin" class="sidelogin">
+        <a href="javascript:void(0)" class="closebtn2" onclick="closeLogin()"
+          >&times;</a
+        >
+        <img
+          class="loginimg"
+          src="/imagens/outline_account_circle_black_24dp.png"
+        /><br />
+        <p class="loginnome">Usuário:</p>
+        <input type="text" id="nome" name="Usuário" /><br /><br />
+        <p class="loginsenha">Senha:</p>
+        <input type="password" id="senha" />
+        <input class="loginbutton" type="submit" value="Entrar" />
+      </div>
+  
+      <div class="header">
+        <span
+          style="font-size: 30px; cursor: pointer; color: #ffbd59; width: 100vw"
+          onclick="openNav()"
+          >&#9776; F4B</span
+        >
+        <span class="material-icons-outlined">
+          <img
+            src="/imagens/outline_login_black_24dp.png"
+            onclick="openLogin()"
+          />
+        </span>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "100vw";
+        }
+  
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+  
+        function openLogin() {
+          document.getElementById("mySideLogin").style.width = "100vw";
+        }
+  
+        function closeLogin() {
+          document.getElementById("mySideLogin").style.width = "0";
+        }
+      </script>
+    <header>
+        <a href="index.html"><img class="logo" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F28b44fa9-b34c-4321-a2c2-7e425f680408%2Ff4bank.png?table=block&id=a7a844f0-a9fe-4a92-8b97-08e82f86309a&spaceId=f97190af-c9c2-4592-9ae2-6311b6b728de&width=1000&userId=73088117-46bb-4387-aacd-b327c7eadf64&cache=v2" alt="logo"></a>
+        <nav>
+            <a href="index.html"><button class="header-button"><b>Home</b></button></a>
+            <a href="produto.html"><button class="header-button"><b>Nossos serviços</b></button></a>
+            <a href="sobre-nos.html"><button class="header-button"><b>Quem Somos</b></button></a>
+            <a href=""><button class="header-button"><b>Contato</b></button></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+           <div>
+               <h1> E-mail </h1>
+               <p class="testo"> Tem alguma dúvida? Podemos te ajudar pelo nosso canal de email.
+
+                meajuda@F4Bank.com.br</p>
+           </div>
+           
+        </section>
+        <section>
+            
+            <div>    
+               <h2>Telefone</h2>
+               <p>Você pode ligar para o 0800 do F4Bank a qualquer hora através do número abaixo.
+
+                0800 898 9099</p>
+            </div>
+        </section>
+        <section>
+            
+            <div>
+              <h3>Ouvidoria</h3>
+              <p>Já conversou conosco e mesmo assim não
+                conseguiu resolver o que precisava? Nossa
+                Ouvidoria pode avaliar seu caso.
+                
+                0800 673 7327
+                
+                ouvidoria@F4bank.com.br
+                
+                Atendemos em dias úteis das 9h às 18h
+                (horário de São Paulo/SP).</p>
+            </div> 
+        </section>
+        
+    </main>
+    <footer class="footermain">
+        <div>
+            <div class="seguir">
+                <h2>Siga o F4Bank</h2>
+                <div class="redes">
+                    <a target="_blank" href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/512/733/733603.png" alt="facebook"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/733/733614.png" alt="instagram"></a>
+                    <a target="_blank" href="https://twitter.com/home?lang=pt"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="pj">
+            <img class="logobottom" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F28b44fa9-b34c-4321-a2c2-7e425f680408%2Ff4bank.png?table=block&id=a7a844f0-a9fe-4a92-8b97-08e82f86309a&spaceId=f97190af-c9c2-4592-9ae2-6311b6b728de&width=1000&userId=73088117-46bb-4387-aacd-b327c7eadf64&cache=v2" alt="logo">
+            <div class="texto-final">
+                <p>© 2022  F4Bank Pagamentos S.A - Instituição de Pagamento.  13.896.134/0001-68</p>
+                <p>Rua labenu, 39 - São Paulo, SP - 05498-0100</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
